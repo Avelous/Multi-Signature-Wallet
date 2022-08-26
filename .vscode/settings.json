@@ -1,0 +1,35 @@
+{
+  "solidity.packageDefaultDependenciesDirectory": "node_modules/@scaffold-eth/hardhat/node_modules/",
+  "solidity-va.test.defaultUnittestTemplate": "hardhat",
+  "files.exclude": {
+    "**/.cache": true,
+    "**/.DS_Store": true,
+    "**/.git": false,
+    "**/.hg": true,
+    "**/.svn": true,
+    "**/.vs/": true,
+    "**/*.cs": true,
+    "**/*.orig": true,
+    "**/bin/": true,
+    "**/build/": true,
+    "**/CVS": true,
+    "**/debug/": true,
+    "**/dist/": true,
+    "**/node_modules/": true,
+    "**/obj": true,
+    "**/yarn-error.log": true,
+    "packages\\eth-hooks/lib": true,
+    "yarn-error.log": true
+  },
+  "explorerExclude.backup": null,
+  "eslint.workingDirectories": [
+    { "directory": "packages/eth-hooks", "changeProcessCWD": true },
+    { "directory": "packages/hardhat-ts", "changeProcessCWD": true },
+    { "directory": "packages/vite-app-ts", "changeProcessCWD": true }
+  ],
+  "search.exclude": {
+    "**/yarn-error.log": true,
+    "**/yarn.lock": true
+  },
+  "git.detectSubmodules": false
+}
